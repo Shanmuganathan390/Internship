@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+.name{
+    text-align: center;
+    background-color: rgb(126, 238, 136);
+}
+.skill{
+    padding: 0.5em;
+    background-color: rgb(234, 192, 138);
+}
+.li{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    background-color: rgb(234, 192, 138);
+}
+.about{
+    padding: 0.5em;
+    background-color: limegreen;
+}
+.para{
+    margin-bottom: 1.5em;
+    padding-left: 2em;
+    background-color: aqua;
+}
+input{
+    border:1px solid#AAA;
+    outline:none;
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 1rem;
+    border-radius: .2em;
+    font-family: inherit;
+    line-height: inherit;
+}
+.input:focus{
+    border-color:blue;
+    box-shadow: 0 0 5px burlywood;
+}
+.th{
+    text-align: center;
+    background-color: blueviolet;
+}
+.same.p{
+    background-color: beige;
+    margin: 2em;
+}
+.project{
+    padding: 0.5em;
+    background-color: aquamarine;
+}
+.points{
+    padding: 1.5em;
+    background-color: aqua;
+}
+.contact{
+    padding: .2em;
+    margin-left: 1.5em;
+}
+
+.input-send{
+    margin-left: 4em;
+}
+.h2{
+    padding: .4em;
+}
+
+.input-send:hover{
+    cursor: pointer;
+    color: 0 0 5px hsl(206, 74%, 45%);
+
+}
+.input-name:hover{
+    
+    box-shadow: 0 0 5px hsl(248, 94%, 47%);
+}
+.input-email:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px hsl(126, 87%, 36%);
+}
+.input-message:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px hsl(0, 79%, 44%);
+}
